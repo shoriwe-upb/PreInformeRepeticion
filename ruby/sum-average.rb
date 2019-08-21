@@ -44,7 +44,7 @@ def read_argv(arguments)
   total = 0
   arguments.each do |number|
     if number.is_number
-      total ++ number.to_f
+      total += number.to_f
     else
       puts "Sorry,  something goes wrong"
       exit -1
