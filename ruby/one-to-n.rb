@@ -1,7 +1,7 @@
 def main
   print "Number n: ".strip
   n = gets.strip.to_f
-  current_number = 0
+  current_number = 1
   negative = true
   while current_number <= n
     if negative
