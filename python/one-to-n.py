@@ -2,7 +2,7 @@ def main():
     n = int(float(input("Number n: ")))
     if n >= 0:
         current_number = 1
-        negative = True
+        negative = False
         while current_number <= n:
             if negative:
                 negative = False

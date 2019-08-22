@@ -2,7 +2,7 @@ def main
   print "Number n: ".strip
   n = gets.strip.to_f
   current_number = 1
-  negative = true
+  negative = false
   while current_number <= n
     if negative
       puts -current_number
